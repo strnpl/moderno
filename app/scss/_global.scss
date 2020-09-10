@@ -49,8 +49,8 @@ body {
 .title {
     text-align: center;
     color: $bg;
+    @include f700;
     font-size: 36px;
-    font-weight: 700;
     line-height: 60px;
     margin-bottom: 30px;
 }
