@@ -361,7 +361,7 @@
         color: #fff;
         font-size: 24px;
         margin-bottom: 25px;
-        @include f500
+        @include f500;
         transition: all .3s;
     }
 
@@ -383,6 +383,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     &__box {
         max-width: 650px;
         width: 100%;
@@ -399,6 +400,7 @@
         color: #fff;
         margin-right: 45px;
         max-width: 260px;
+
         span {
             @include f700;
         }
@@ -418,10 +420,12 @@
 
 .tutorial {
     padding: 60px 0 120px;
+
     &__inner {
         display: flex;
         justify-content: space-between;
     }
+
     &__item {
         max-width: 370px;
         width: 100%;
@@ -445,3 +449,5 @@
         padding: 30px 10px;
     }
 }
+
+//end tutorial 
