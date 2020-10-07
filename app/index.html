@@ -153,7 +153,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a class="header__btn header__btn-login" href="#">Login</a>
+                                <a class="header__btn header__btn-login" data-fancybox data-src="#modal"
+                                    href="javascript:;">Login</a>
                                 <a class="header__btn header__btn-logout header__btn-login--off" href="#">Logout</a>
                                 <a class="header__btn header__btn-register" href="#">Register</a>
                             </div>
@@ -1038,7 +1039,8 @@
                                     About Company
                                 </div>
                                 <div class="footer__col-text">
-                                    Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce
+                                    Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
+                                    disse.Fusce
                                     sit
                                     amet urna iat.Praesent vel rutrum purus.
                                 </div>
@@ -1050,7 +1052,7 @@
                                     +61 3 8376 6284
                                 </a>
                             </div>
-    
+
                             <div class="footer__col footer__col-menu">
                                 <div class="footer__col-title">
                                     Join Our Community
@@ -1062,9 +1064,9 @@
                                     <li><a href="#">Community Meetups</a></li>
                                     <li><a href="#">Become an Affiliate</a></li>
                                 </ul>
-    
+
                             </div>
-    
+
                             <div class="footer__col footer__col-menu">
                                 <div class="footer__col-title">
                                     Need Help?
@@ -1077,7 +1079,7 @@
                                     <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
-    
+
                             <div class="footer__col footer__col-social">
                                 <div class="footer__col-title">
                                     Follow Us On
@@ -1105,17 +1107,36 @@
                 <div class="footer__copy">
                     <div class="container">
                         <div class="footer__copy-text">
-                            © 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.
+                            © 2017 Foxtar market place. Trademarks and brands are the property of their respective
+                            owners.
                         </div>
                     </div>
                 </div>
             </footer>
-    </div>
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/path/to/mixitup.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
+        <div id="modal">
+            <div class="login__wrapper">
+                <div class="login__title">Login</div>
+                <form>
+                    <label class="login__label-name">
+                        <input type="text" placeholder="Name" required>
+                    </label>
+
+                    <label class="login__label-pass">
+                        <input type="text" placeholder="Password" required>
+                    </label>
+                    <button type="submit">Submit</button>
+                    <a class="create-acc" href="#">Create An Account?</a>
+                    <a class="lost-pass" href="#">Lost Password?</a>
+                </form>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/path/to/mixitup.min.js"></script>
+        <script src="js/libs.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 
 </html>
