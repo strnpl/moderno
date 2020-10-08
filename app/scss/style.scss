@@ -1865,9 +1865,78 @@ button.icon-sort-amount-desc {
 
 //product-one end
 
-//start popup
+//start page-404
 
-//end popup
+.page-404__wrapper {
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    margin-bottom: 150px;
+}
+
+.page-404__head {
+    font-size: 24px;
+    color: #444;
+    padding: 23px 27px;
+    @include f500;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.page-404__inner {
+    text-align: center;
+    color: #ffffff;
+    background-color: $green;
+}
+
+.page-404__404 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300px;
+    color: #ffffff;
+    font-weight: 800;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    line-height: 300px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url(../images/page-404.png);
+        width: 150px;
+        height: 292px;
+        margin-left: 20px;
+    }
+}
+
+.page-404__title {
+    font-size: 30px;
+    @include f300;
+    margin-bottom: 30px;
+}
+
+.page-404__text {
+    font-size: 18px;
+    max-width: 501px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.page-404__link {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 16px 30px;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+    transition: all .2s;
+
+    &:hover {
+        background-color: #ffffff;
+        color: $green;
+    }
+}
+
+//end page-404
 
 
 
