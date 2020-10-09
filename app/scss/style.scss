@@ -1146,6 +1146,7 @@
             position: absolute;
             top: 15px;
             left: 58px;
+            font-family: 'icomoon';
         }
     }
 }
@@ -1713,6 +1714,58 @@ button.icon-sort-amount-desc {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
+    align-items: center;
+
+    
+    input {
+        width: 100%;
+        display: block;
+        border: 1px solid #d7d7d7;
+        height: 40px;
+        background-color: #f9f9f9;
+        padding: 0 18px;
+    }
+
+    .jq-selectbox {
+        width: 100%;
+    }
+
+    .jq-selectbox__select {
+        height: 40px;
+        width: 110px;
+        padding: 0 18px;
+        border: 1px solid #d7d7d7;
+        border-bottom-color: #d7d7d7;
+        border-radius: 0px;
+        background: #f9f9f9;
+        box-shadow: none;
+        font: 15px/40px Roboto, sans-serif;
+        color: #707070;
+        text-shadow: none;
+    }
+
+    .jq-selectbox__select-text {
+        width: 100%;
+    }
+
+    .jq-selectbox__trigger {
+        border-left: none;
+    }
+
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        top: 0;
+        font-size: 15px;
+        line-height: 40px;
+        right: 20px;
+
+        &::before {
+            content: "\f0d7";
+            font-family: 'icomoon';
+            font-size: 15px;
+
+        }
+    }
 }
 
 .price__product {
@@ -2180,7 +2233,47 @@ button.icon-sort-amount-desc {
 
     label {
         color: #444444;
-        width: 260px;
+        width: 377px;
+    }
+
+    .jq-selectbox {
+        width: 100%;
+    }
+
+    .jq-selectbox__select {
+        height: 40px;
+        padding: 0 18px;
+        border: 1px solid #d7d7d7;
+        border-bottom-color: #d7d7d7;
+        border-radius: 0px;
+        background: #f9f9f9;
+        box-shadow: none;
+        font: 15px/40px Roboto, sans-serif;
+        color: #707070;
+        text-shadow: none;
+    }
+
+    .jq-selectbox__select-text {
+        width: 100%;
+    }
+
+    .jq-selectbox__trigger {
+        border-left: none;
+    }
+
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        top: 0;
+        font-size: 15px;
+        line-height: 40px;
+        right: 20px;
+
+        &::before {
+            content: "\f0d7";
+            font-family: 'icomoon';
+            font-size: 15px;
+
+        }
     }
 
     input {
