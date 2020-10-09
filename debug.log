@@ -1,0 +1,2 @@
+[1009/183525.655:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\1\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ae01515d-5a96-4e4d-8402-044eb760a888: Системе не удается найти указанный путь. (0x3)
+[1009/183525.696:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
